@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      PlaywrightVariable: ${{ vars.PlaywrightVariable }}
+      PLAYWRIGHT_SERVICE_URL: ${{ vars.PlaywrightVariable }}
 
     steps:
       - name: Checkout Code
