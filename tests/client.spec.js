@@ -15,7 +15,7 @@ test('Logina and Handle the all =COntext', async({page})=>{
     var allTitles=await page .locator('.card-body b').allTextContents()
     console.log(allTitles)
     
-
+// added the comments to run the 
 
 
 
